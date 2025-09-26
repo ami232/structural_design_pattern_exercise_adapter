@@ -20,7 +20,24 @@ Edit `shop/adapter.py` and implement:
 - Transaction id is account email for Paypal.
 - Transaction id is merchant id for Stripe.
 
+
 ## Run tests
+
+### Setup
+
+```bash
+# 1) Create a virtual environment (optional)
+# Unix
+python -m venv .venv && source .venv/bin/activate
+
+# Windows: 
+python -m venv .venv
+.venv\Scripts\activate
+
+# 2) Install test dependency
+pip install -r requirements.txt
+```
+
 
 ```bash
 pip install pytest
